@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 3000;
 
 const allowedOrigins = [
   "http://localhost:3000",
-  "https://mel-family-charity.vercel.app/",
+  "https://mel-family-charity-dmfz.vercel.app/",
 ];
 
 const options = {
