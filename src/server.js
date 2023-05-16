@@ -12,7 +12,10 @@ const app = express();
 const cors = require("cors");
 const PORT = process.env.PORT || 3000;
 
-const allowedOrigins = ["http://localhost:3000"];
+const allowedOrigins = [
+  "http://localhost:3000",
+  "https://mel-family-charity.vercel.app/",
+];
 
 const options = {
   origin: allowedOrigins,
